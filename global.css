@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Fonts */
+  --font-noto-sans-jp: "Noto Sans JP";
+  --font-noto-sans: "Noto Sans";
+  --text-sm-bold: Inter;
+  --typography-body-1: Roboto;
+  --font-baloo-bhai: "Baloo Bhai";
+
+  /* font sizes */
+  --extra-text-2xs-normal-size: 11px;
+  --text-xs-normal-size: 12px;
+  --components-chip-size: 13px;
+  --text-sm-bold-size: 14px;
+  --components-button-large-size: 15px;
+  --text-base-bold-size: 16px;
+  --font-size-lg: 18px;
+  --font-size-lgi: 19px;
+  --text-xl-bold-size: 20px;
+  --font-size-3xl: 22px;
+  --font-size-4xl: 23px;
+  --text-2xl-bold-size: 24px;
+  --font-size-7xl: 26px;
+  --font-size-10xl: 29px;
+  --font-size-11xl: 30px;
+  --font-size-13xl: 32px;
+  --font-size-17xl: 36px;
+  --font-size-19xl: 38px;
+
+  /* Colors */
+  --color-cornflowerblue-100: #4dabff;
+  --color-cornflowerblue-200: #1262af;
+  --color-cornflowerblue-300: #1262ae;
+  --color-darkgray: #9b9b9b;
+  --color-darkgray-100: #999;
+  --color-darkslategray-100: #424242;
+  --color-darkslategray-200: #303030;
+  --color-darkslategray-300: rgba(48, 48, 48, 0.87);
+  --color-gainsboro-100: rgba(226, 226, 226, 0.1);
+  --color-gold: #fdbf00;
+  --color-gray: #878787;
+  --color-gray-100: #8e8e94;
+  --color-hotpink: #ff5782;
+  --color-lavender-100: #ccdcec;
+  --color-lightcyan: #e3faff;
+  --color-lightsteelblue-100: #b3c2d4;
+  --color-lightsteelblue-200: rgba(179, 194, 212, 0.09);
+  --color-orange: #f99a0e;
+  --color-sandybrown: #ff9b53;
+  --color-whitesmoke-100: #eaeaea;
+  --color-yellowgreen: #79ca00;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-11xs: 2px;
+  --gap-10xs: 3px;
+  --gap-9xs-7: 3.7px;
+  --gap-9xs: 4px;
+  --gap-8xs: 5px;
+  --gap-7xs: 6px;
+  --gap-5xs: 8px;
+  --gap-3xs-3: 9.3px;
+  --gap-3xs: 10px;
+  --gap-xs: 12px;
+  --gap-base: 16px;
+  --gap-mid: 17px;
+  --gap-lg: 18px;
+  --gap-xl: 20px;
+  --gap-xl-7: 20.7px;
+  --gap-2xl: 21px;
+  --gap-3xl: 22px;
+  --gap-4xl: 23px;
+  --gap-5xl: 24px;
+  --gap-9xl: 28px;
+  --gap-11xl: 30px;
+  --gap-13xl: 32px;
+  --gap-21xl: 40px;
+  --gap-29xl: 48px;
+  --gap-37xl: 56px;
+
+  /* Paddings */
+  --padding-12xs-1: 0.1px;
+  --padding-12xs: 1px;
+  --padding-11xs: 2px;
+  --padding-10xs: 3px;
+  --padding-9xs: 4px;
+  --padding-8xs: 5px;
+  --padding-7xs: 6px;
+  --padding-6xs: 7px;
+  --padding-5xs: 8px;
+  --padding-4xs: 9px;
+  --padding-3xs: 10px;
+  --padding-2xs: 11px;
+  --padding-xs: 12px;
+  --padding-smi: 13px;
+  --padding-mini: 15px;
+  --padding-base: 16px;
+  --padding-lg: 18px;
+  --padding-lgi: 19px;
+  --padding-xl: 20px;
+  --padding-2xl: 21px;
+  --padding-3xl: 22px;
+  --padding-4xl: 23px;
+  --padding-5xl: 24px;
+  --padding-8xl: 27px;
+  --padding-9xl: 28px;
+  --padding-11xl: 30px;
+  --padding-13xl: 32px;
+  --padding-14xl: 33px;
+  --padding-17xl: 36px;
+  --padding-18xl: 37px;
+  --padding-19xl: 38px;
+  --padding-21xl: 40px;
+  --padding-22xl: 41px;
+  --padding-23xl: 42px;
+  --padding-33xl: 52px;
+  --padding-37xl: 56px;
+  --padding-38xl: 57px;
+  --padding-42xl: 61px;
+  --padding-47xl: 66px;
+  --padding-60xl: 79px;
+  --padding-61xl: 80px;
+  --padding-69xl: 88px;
+  --padding-74xl: 93px;
+  --padding-75xl-5: 94.5px;
+  --padding-80xl: 99px;
+  --padding-96xl: 115px;
+  --padding-168xl: 187px;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-base: 16px;
+  --br-lgi: 19px;
+  --br-xl: 20px;
+  --br-12xl: 31px;
+  --br-29xl: 48px;
+  --br-45xl: 64px;
+
+  /* Effects */
+  --shadow-lg: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Figma Variables */
+
+  /* Color Variables */
+  --colors-base-bg-100: #f5f5f5;
+  --colors-base-bg-error: #fef2f2;
+  --colors-base-bg-form: #f9fbfc;
+  --colors-base-bg-info: #e9f3fb;
+  --colors-base-bg-mainaria: #f7f7f7;
+  --colors-base-black: #000;
+  --colors-base-content-light: #bababa;
+  --colors-base-content-normal: #262626;
+  --colors-base-content-weak: #737373;
+  --colors-base-line-form: #cbcbcb;
+  --colors-base-line-light: #e9e9e9;
+  --colors-base-line-normal: #d0d0d0;
+  --colors-base-white: #fff;
+  --colors-original-tn-light-blue: #00b4ed;
+  --colors-semantic-accent: #00893f;
+  --colors-semantic-primary: #0068b7;
+  --colors-semantic-secondary: #525252;
+  --colors-status-disabled: rgba(43, 52, 64, 0.2);
+  --colors-status-disabled-content: rgba(31, 41, 55, 0.35);
+  --colors-status-error: #dc2626;
+  --colors-status-info: #38bdf8;
+  --colors-status-info-content: #082f49;
+  --colors-status-success: #6ee7b7;
+  --colors-status-success-content: #022c22;
+  --colors-status-warning: #fcd34d;
+  --colors-status-warning-content: #451a03;
+  --grey-grey-300: #e0e0e0;
+  --grey-grey-400: #bdbdbd;
+  --grey-grey-700: #616161;
+  --other-outlined-border: rgba(0, 0, 0, 0.23);
+  --syoku-01: #0fabb5;
+  --syoku-02: #f13c68;
+  --text-01: #333;
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --text-secondary: rgba(0, 0, 0, 0.6);
+
+  /* Number Variables */
+  --ui-button-radius-sm: 4px;
+  --ui-form-radius-sm: 4px;
+  --spacing-1: 4px;
+  --ui-card-radius-lg: 6px;
+  --spacing-2: 8px;
+  --spacing-4: 16px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --ui-button-min-height-sm: 32px;
+  --ui-form-min-height-sm: 32px;
+  --spacing-10: 40px;
+  --spacing-24: 96px;
+  --ui-base-page-min-width: 1280px;
+  --ui-base-page-max-width: 2000px;
+}
